@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Festival Les Films de Plein Air, projections de films d'auteur en plein air au parc Monceau à Paris du 05 au 08 août 2020.">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Les Films de ¨Plein Air"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="http://lesfilmsdepleinair.nicolas-coureau.fr/"/>
+	<meta property="og:image" content="http://lesfilmsdepleinair.nicolas-coureau.fr/img/og-img-festival.jpg"/>
+	<meta property="og:description" content="Festival Les Films de Plein Air, projections de films d'auteur en plein air au parc Monceau à Paris du 05 au 08 août 2020."/>
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@nicolas_coureau">
+	<meta name="twitter:title" content="Les Films de ¨Plein Air">
+	<meta name="twitter:description" content="Festival Les Films de Plein Air, projections de films d'auteur en plein air au parc Monceau à Paris du 05 au 08 août 2020.">
+	<meta name="twitter:creator" content="@nicolas_coureau">
+	<!-- Twitter Summary card images must be at least 200x200px -->
+	<meta name="twitter:image" content="http://lesfilmsdepleinair.nicolas-coureau.fr/img/tc-img-festival.jpg">
+
+	<title>Les Films de Plein Air</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="script.js" async></script>
+</head>
+<body id="page-top">
+	<!-- En tête -->
+	<header>
+		<!-- Navbar (sit on top) -->
+		<div class="w3-top">
+		  <div class="w3-bar w3-white w3-card w3-theme-dark" id="myNavbar">
+			  <div class="logo-festival">
+				  <a href="index.html" class="w3-bar-item w3-button w3-wide w3-hover-theme-l4"><img src="img/logo.png" alt="logo festival"></a>
+			  </div>
+		    <!-- Right-sided navbar links -->
+		    <div class="w3-display-right w3-hide-small w3-hide-medium w3-large content-menu">
+				 <a href="#page-top" class="w3-bar-item w3-button w3-hover-theme-l4">Accueil</a>
+		      <a href="#main-programme" class="w3-bar-item w3-button w3-hover-theme-l4">Programme</a>
+		      <a href="#main-reservation" class="w3-bar-item w3-button w3-hover-theme-l4">Réservation</a>
+		      <a href="#main-actualites" class="w3-bar-item w3-button w3-hover-theme-l4">Actualités</a>
+		      <a href="#main-partenaires" class="w3-bar-item w3-button w3-hover-theme-l4">Partenaires</a>
+		      <a href="#main-contact" class="w3-bar-item w3-button w3-hover-theme-l4">Contact</a>
+		    </div>
+		    <!-- Hide right-floated links on small and medium screens and replace them with a menu icon -->
+
+		    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-theme-l4" onclick="w3_open()">
+		      <i class="fa fa-bars w3-xxxlarge"></i>
+		    </a>
+		  </div>
+		</div>
+
+		<!-- Sidebar on small and medium screens when clicking the menu icon -->
+		<nav class="w3-sidebar w3-bar-block w3-theme-dark w3-card w3-animate-left w3-hide-large" style="display:none" id="mySidebar">
+		  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 w3-hover-theme-l4">Fermer &times;</a>
+		  <a href="#page-top" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-l4">Accueil</a>
+		  <a href="#main-programme" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-l4">Programme</a>
+		  <a href="#main-reservation" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-l4">Réservation</a>
+		  <a href="#main-actualites" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-l4">Actualités</a>
+		  <a href="#main-partenaires" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-l4">Partenaires</a>
+		  <a href="#main-contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-theme-l4">Contact</a>
+		</nav>
+	</header>
+
+		<main id="main-content">
+			<!-- Section A propos du festival -->
+			<section id="main-apropos">
+				<div class="w3-display-container">
+					<img src="img/img-festival.jpg" alt="Festival de cinéma en plein air">
+					<div class="w3-display-topmiddle w3-text-white w3-center w3-padding-64 w3-mobile">
+						<h1 class="w3-xxlarge">Festival "Les Films de Plein Air"</h1>
+					</div>
+				</div>
+				<div class="w3-theme">
+					<div class="apropos w3-container w3-theme-l4 w3-border-bottom w3-border-theme">
+						<h2 class="w3-center">Projections de films en plein air</h2>
+						<h2 class="w3-center">Du 05 au 08 Août 2020</h2>
+						<h2 class="w3-center">Parc Monceau - Paris</h2>
+						<p>L'association "les Films de Plein Air" organise son premier festival de cinéma en plein air qui se déroulera du 05 au 08 Août 2020 de 18 heures à minuit, au parc Monceau à Paris. Vous pourrez y découvrir chaque soir 2 films d'auteur. L'accès aux projections est grauit et ouvert à tous! alors n'hésitez pas à vous inscrire pour venir partager tous ensemble de grands chefs d'oeuvre du cinéma d'auteur!</p>
+						<div class="btn-resa w3-container w3-center">
+						  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Section Programme festival -->
+			<section id="main-programme" class="w3-theme">
+				<div class="content-prog w3-container w3-theme-l4 w3-auto">
+					<h2 class="w3-center w3-xxlarge">LE PROGRAMME DU FESTIVAL</h2>
+					<!-- 1er jour -->
+					<div class="ligne-films w3-row w3-auto">
+						<h3 class="w3-center w3-xxlarge">05 Août</h3>
+						<!-- 1er film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-seven-pounds.jpg" alt="affiche seven pounds">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id01" class="w3-modal">
+							    <div class="w3-modal-content" style="max-width: 500px">
+							        <span onclick="document.getElementById('id01').style.display='none'"
+							        class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+							      <div class="w3-container">
+										<img src="img/affiche-seven-pounds.jpg" alt="affiche seven pounds">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />14 janvier 2009</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Gabriele Muccino</li>
+											<li><span class="title-modal">Durée:</span><br />2h 03min</li>
+											<li><span class="title-modal">Acteurs:</span><br />Will Smith, Rosario Dawson, Woody Harrelson</li>
+											<li><span class="title-modal">Genre:</span><br />Drame</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />Hanté par un secret, Ben Thomas cherche sa rédemption en transformant radicalement la vie de sept personnes qu'il ne connaît pas. Une fois son plan mis en place, plus rien ne pourra l'arrêter. C'est tout du moins ce qu'il croit. Mais Ben n'avait pas prévu qu'il tomberait amoureux de l'une de ces personnes et que c'est elle qui va le transformer...</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Mercredi 05 août 2020 à 19h00</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+
+						<div class="w3-col w3-hide-small m2 w3-container">
+
+						</div>
+						<!-- 2ème film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-forrest-gump-2.jpg" alt="affiche forrest gump">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id02" class="w3-modal">
+								 <div class="w3-modal-content" style="max-width: 500px">
+									  <span onclick="document.getElementById('id02').style.display='none'"
+									  class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+									<div class="w3-container">
+										<img src="img/affiche-forrest-gump-2.jpg" alt="affiche forrest gump">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />5 octobre 1994</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Robert Zemeckis</li>
+											<li><span class="title-modal">Durée:</span><br />2h 20min</li>
+											<li><span class="title-modal">Acteurs:</span><br />Tom Hanks, Gary Sinise, Robin Wright</li>
+											<li><span class="title-modal">Genre:</span><br /> Romance, Drame, Comédie</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />Quelques décennies d'histoire américaine, des années 1940 à la fin du XXème siècle, à travers le regard et l'étrange odyssée d'un homme simple et pur, Forrest Gump.</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Mercredi 05 août 2020 à 21h30</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+									</div>
+								 </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+					</div>
+					<!--fin 1er jour-->
+					<!-- 2ème jour -->
+					<div class="ligne-films w3-row w3-auto">
+						<h3 class="w3-center w3-xxlarge">06 Août</h3>
+						<!-- 3ème film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-belle-bete.jpg" alt="affiche la belle et la bête">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id03" class="w3-modal">
+							    <div class="w3-modal-content" style="max-width: 500px">
+							        <span onclick="document.getElementById('id03').style.display='none'"
+							        class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+							      <div class="w3-container">
+										<img src="img/affiche-belle-bete.jpg" alt="affiche la belle et la bête">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />16 mars 2017</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Bill Condon</li>
+											<li><span class="title-modal">Durée:</span><br />2h 09min</li>
+											<li><span class="title-modal">Acteurs:</span><br />Emma Watson, Dan Stevens, Luke Evans</li>
+											<li><span class="title-modal">Genre:</span><br />Fantastique, Romance, Comédie musicale</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />Fin du XVIIIè siècle, dans un petit village français. Belle, jeune fille rêveuse et passionnée de littérature, vit avec son père, un vieil inventeur farfelu. S'étant perdu une nuit dans la fôret, ce dernier se réfugie au château de la Bête, qui le jette au cachot. Ne pouvant supporter de voir son père emprisonné, Belle accepte alors de prendre sa place, ignorant que sous le masque du monstre se cache un Prince Charmant tremblant d'amour pour elle, mais victime d'une terrible malédiction.</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Jeudi 06 août 2020 à 19h00</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+
+						<div class="w3-col w3-hide-small m2 w3-container">
+
+						</div>
+						<!-- 4ème film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-intouchables.jpg" alt="affiche intouchables">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id04').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id04" class="w3-modal">
+								 <div class="w3-modal-content" style="max-width: 500px">
+									  <span onclick="document.getElementById('id04').style.display='none'"
+									  class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+									<div class="w3-container">
+										<img src="img/affiche-intouchables.jpg" alt="affiche intouchables">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />2 novembre 2011</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Eric Toledano, Olivier Nakache</li>
+											<li><span class="title-modal">Durée:</span><br />1h 52min</li>
+											<li><span class="title-modal">Acteurs:</span><br />François Cluzet, Omar Sy, Anne Le Ny</li>
+											<li><span class="title-modal">Genre:</span><br />Comédie</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />A la suite d’un accident de parapente, Philippe, riche aristocrate, engage comme aide à domicile Driss, un jeune de banlieue tout juste sorti de prison. Bref la personne la moins adaptée pour le job. Ensemble ils vont faire cohabiter Vivaldi et Earth Wind and Fire, le verbe et la vanne, les costumes et les bas de survêtement... Deux univers vont se télescoper, s’apprivoiser, pour donner naissance à une amitié aussi dingue, drôle et forte qu’inattendue, une relation unique qui fera des étincelles et qui les rendra... Intouchables.</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Jeudi 06 août 2020 à 21h30</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+									</div>
+								 </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+					</div>
+					<!--fin 2ème jour-->
+					<!-- 3ème jour -->
+					<div class="ligne-films w3-row w3-auto">
+						<h3 class="w3-center w3-xxlarge">07 Août</h3>
+						<!-- 5ème film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-lala-land-2.jpg" alt="affiche la la land">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id05').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id05" class="w3-modal">
+							    <div class="w3-modal-content" style="max-width: 500px">
+							        <span onclick="document.getElementById('id05').style.display='none'"
+							        class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+							      <div class="w3-container">
+										<img src="img/affiche-lala-land-2.jpg" alt="affiche la la land">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />25 janvier 2017</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Damien Chazelle</li>
+											<li><span class="title-modal">Durée:</span><br />2h 08min</li>
+											<li><span class="title-modal">Acteurs:</span><br />Ryan Gosling, Emma Stone, John Legend</li>
+											<li><span class="title-modal">Genre:</span><br />Comédie musicale, Romance</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />Au cœur de Los Angeles, une actrice en devenir prénommée Mia sert des cafés entre deux auditions.
+											De son côté, Sebastian, passionné de jazz, joue du piano dans des clubs miteux pour assurer sa subsistance.
+											Tous deux sont bien loin de la vie rêvée à laquelle ils aspirent…
+											Le destin va réunir ces doux rêveurs, mais leur coup de foudre résistera-t-il aux tentations, aux déceptions, et à la vie trépidante d’Hollywood ?</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Vendredi 07 août 2020 à 19h00</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+
+						<div class="w3-col w3-hide-small m2 w3-container">
+
+						</div>
+						<!-- 6ème film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-leon.jpg" alt="affiche leon">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id06').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id06" class="w3-modal">
+								 <div class="w3-modal-content" style="max-width: 500px">
+									  <span onclick="document.getElementById('id06').style.display='none'"
+									  class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+									<div class="w3-container">
+										<img src="img/affiche-leon.jpg" alt="affiche leon">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />14 septembre 1994</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Luc Besson</li>
+											<li><span class="title-modal">Durée:</span><br />1h 43min</li>
+											<li><span class="title-modal">Acteurs:</span><br />Jean Reno, Gary Oldman, Natalie Portman</li>
+											<li><span class="title-modal">Genre:</span><br />Policier, Drame</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />Un tueur à gages répondant au nom de Léon prend sous son aile Mathilda, une petite fille de douze ans, seule rescapée du massacre de sa famille. Bientôt, Léon va faire de Mathilda une "nettoyeuse", comme lui. Et Mathilda pourra venger son petit frère...</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Vendredi 07 août 2020 à 21h30</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+									</div>
+								 </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+					</div>
+					<!--fin 3ème jour-->
+					<!-- 4ème jour -->
+					<div class="ligne-films w3-row w3-auto">
+						<h3 class="w3-center w3-xxlarge">08 Août</h3>
+						<!-- 7ème film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-gran-torino.jpg" alt="affiche gran torino">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id07').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id07" class="w3-modal">
+							    <div class="w3-modal-content" style="max-width: 500px">
+							        <span onclick="document.getElementById('id07').style.display='none'"
+							        class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+							      <div class="w3-container">
+										<img src="img/affiche-gran-torino.jpg" alt="affiche gran torino">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />25 février 2009</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Clint Eastwood</li>
+											<li><span class="title-modal">Durée:</span><br />1h 51min</li>
+											<li><span class="title-modal">Acteurs:</span><br />Clint Eastwood, Bee Vang, Ahney Her</li>
+											<li><span class="title-modal">Genre:</span><br />Drame, Thriller</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />Walt Kowalski est un ancien de la guerre de Corée, un homme inflexible, amer et pétri de préjugés surannés. Après des années de travail à la chaîne, il vit replié sur lui-même, occupant ses journées à bricoler, traînasser et siroter des bières. Avant de mourir, sa femme exprima le voeu qu'il aille à confesse, mais Walt n'a rien à avouer, ni personne à qui parler. Hormis sa chienne Daisy, il ne fait confiance qu'à son M-1, toujours propre, toujours prêt à l'usage...
+											Ses anciens voisins ont déménagé ou sont morts depuis longtemps. Son quartier est aujourd'hui peuplé d'immigrants asiatiques qu'il méprise, et Walt ressasse ses haines, innombrables - à l'encontre de ses voisins, des ados Hmong, latinos et afro-américains "qui croient faire la loi", de ses propres enfants, devenus pour lui des étrangers. Walt tue le temps comme il peut, en attendant le grand départ, jusqu'au jour où un ado Hmong du quartier tente de lui voler sa précieuse Ford Gran Torino... Walt tient comme à la prunelle de ses yeux à cette voiture fétiche, aussi belle que le jour où il la vit sortir de la chaîne.
+											Lorsque le jeune et timide Thao tente de la lui voler sous la pression d'un gang, Walt fait face à la bande, et devient malgré lui le héros du quartier. Sue, la soeur aînée de Thao, insiste pour que ce dernier se rachète en travaillant pour Walt. Surmontant ses réticences, ce dernier confie au garçon des "travaux d'intérêt général" au profit du voisinage. C'est le début d'une amitié inattendue, qui changera le cours de leur vie.
+											Grâce à Thao et sa gentille famille, Walt va découvrir le vrai visage de ses voisins et comprendre ce qui le lie à ces exilés, contraints de fuir la violence... comme lui, qui croyait fermer la porte sur ses souvenirs aussi aisément qu'il enfermait au garage sa précieuse Gran Torino...</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Samedi 08 août 2020 à 19h00</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+
+						<div class="w3-col w3-hide-small m2 w3-container">
+
+						</div>
+						<!-- 8ème film -->
+						<div class="w3-col s6 m5 w3-container">
+							<img src="img/affiche-tchao-pantin-2.jpg" alt="affiche tchao pantin">
+							<!--Modal-->
+							<div class="w3-container w3-center w3-padding-16">
+							  <button onclick="document.getElementById('id08').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-large">Détails</button>
+							  <div id="id08" class="w3-modal">
+								 <div class="w3-modal-content" style="max-width: 500px">
+									  <span onclick="document.getElementById('id08').style.display='none'"
+									  class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+									<div class="w3-container">
+										<img src="img/affiche-tchao-pantin-2.jpg" alt="affiche tchao pantin">
+										<ul class="w3-ul w3-left-align">
+											<li><span class="title-modal">Date de sortie:</span><br />21 décembre 1983</li>
+											<li><span class="title-modal">Réalisateur:</span><br />Claude Berri</li>
+											<li><span class="title-modal">Durée:</span><br />1h 40min</li>
+											<li><span class="title-modal">Acteurs:</span><br />Coluche, Richard Anconina, Agnès Soral</li>
+											<li><span class="title-modal">Genre:</span><br />Policier, Drame</li>
+											<li><span class="title-modal">Synopsis et détails:</span><br />Lambert, le regard fatigué et l'oeil rougi par l'alcool, traine sa solitude dans un garage parisien. Il est pompiste de nuit. Bensoussan, jeune dealer, fuit la police et se réfugie dans la station. Ils deviennent amis. Un jour, Bensoussan est assassiné...</li>
+											<li><span class="title-modal">Date et horaire de projection:</span><br>Samedi 08 août 2020 à 21h30</li>
+										</ul>
+										<div class="w3-container w3-center">
+										  <a href="#main-reservation" class="w3-button w3-theme-l2 w3-hover-theme-d5">Réserver sa place</a>
+										</div>
+									</div>
+								 </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+					</div>
+					<!--fin 4ème jour-->
+				</div>
+
+			</section>
+
+			<!-- Section Réservation -->
+			<section id="main-reservation" class="w3-theme">
+				<div class="main-form w3-theme-l4 w3-auto w3-container">
+					<form class="content-form" action="index.html" method="post">
+						<h2 class="w3-center">Formulaire de réservation</h2>
+						<div class="w3-row">
+							<!--partie gauche-->
+							<div class="w3-col w3-container s12 m6">
+								<div class="w3-padding">
+									<label for="name">Nom et prénom</label>
+									<input class="w3-input w3-round-large" type="text" name="name" id="name" placeholder="Vos nom et prénom" required>
+								</div>
+								<div class="w3-padding">
+									<label for="mail">Adresse mail</label>
+									<input class="w3-input w3-round-large" type="email" name="mail" id="mail" placeholder="Votre adresse mail" required>
+								</div>
+								<div class="w3-padding">
+									<label for="telephone">Numéro de téléphone</label>
+									<input id="telephone" class="w3-input w3-round-large" type="tel" name="telephone" placeholder="Votre téléphone">
+								</div>
+							</div>
+							<!--partie droite-->
+							<div class="w3-col w3-container s12 m6">
+								<div class="w3-padding">
+									<label for="films">Votre film</label>
+									<select id="films" class="w3-select w3-round-large" name="option">
+									  <option value="" disabled selected>Choisissez votre séance</option>
+									  <option value="1">Mercredi 05 août 2020 à 19h00 / Sept vies</option>
+									  <option value="2">Mercredi 05 août 2020 à 21h30 / Forrest Gump</option>
+									  <option value="3">Jeudi 06 août 2020 à 19h00 / La belle et la bête</option>
+									  <option value="4">Jeudi 06 août 2020 à 21h30 / Intouchables</option>
+									  <option value="5">Vendredi 07 août 2020 à 19h00 / La La Land</option>
+									  <option value="6">Vendredi 07 août 2020 à 21h30 / Léon</option>
+									  <option value="7">Samedi 08 août 2020 à 19h00 / Gran Torino</option>
+									  <option value="8">Samedi 08 août 2020 à 21h30 / Tchao Pantin</option>
+									</select>
+								</div>
+								<div class="w3-padding">
+									<label for="personnes">Nombre de personnes</label>
+									<select id="personnes" class="w3-select w3-round-large" name="option">
+									  <option value="" disabled selected>0</option>
+									  <option value="1">1</option>
+									  <option value="2">2</option>
+									  <option value="3">3</option>
+									  <option value="4">4</option>
+									  <option value="5">5</option>
+									  <option value="6">6</option>
+									  <option value="7">7</option>
+									  <option value="8">8</option>
+									  <option value="9">9</option>
+									  <option value="10">10</option>
+									</select>
+								</div>
+								<div class="w3-padding">
+									<input class="w3-check" type="checkbox" checked="checked">
+									<label>Inscription à la newsletter</label>
+								</div>
+								<div class="w3-padding">
+									<input class="w3-check" type="checkbox" required>
+									<label>J'ai lu et j'accepte la politique de confidentialité de ce site (<a href="mentions-legales.html">Mentions légales</a>)</label>
+								</div>
+							</div>
+						</div>
+						<div class="w3-center w3-padding-16">
+							<input type="submit" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-round-large" value="Envoyer" style="min-width: 200px">
+						</div>
+					</form>
+				</div>
+			</section>
+
+			<!-- Section actualités -->
+			<section id="main-actualites" class="w3-theme">
+				<div class="content-actu w3-container w3-theme-l4 w3-auto">
+					<h2 class="w3-center">Les dernières actualités de l'association</h2>
+					<!--1ère actualité-->
+					<div class="w3-row-padding w3-padding-16">
+						<div class="w3-col m4" style="padding-top: 20px">
+							<img src="img/ecran-geant.jpg" alt="ecran geant">
+						</div>
+						<div class="w3-col m8">
+							<h3>L'écran géant est prêt!</h3>
+							<p>
+							Saraceni tamen nec amici nobis umquam nec hostes optandi, ultro citroque discursantes quicquid inveniri poterat momento temporis parvi vastabant milvorum rapacium similes, qui si praedam dispexerint celsius, volatu rapiunt celeri, aut nisi impetraverint, non inmorantur.
+							Iamque non umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro iam die, ablatis regiis indumentis Caesarem tunica texit.
+							</p>
+							<!--Modal-->
+							<div class="w3-left">
+							  <button onclick="document.getElementById('id09').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5">Lire la suite</button>
+							  <div id="id09" class="w3-modal">
+								 <div class="w3-modal-content" style="max-width: 500px">
+									  <span onclick="document.getElementById('id09').style.display='none'"
+									  class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+									<div class="w3-container">
+										<img src="img/ecran-geant.jpg" alt="ecran geant">
+										<h3>L'écran géant est prêt!</h3>
+										<p>
+										Saraceni tamen nec amici nobis umquam nec hostes optandi, ultro citroque discursantes quicquid inveniri poterat momento temporis parvi vastabant milvorum rapacium similes, qui si praedam dispexerint celsius, volatu rapiunt celeri, aut nisi impetraverint, non inmorantur.
+										Iamque non umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro iam die, ablatis regiis indumentis Caesarem tunica texit.Sed maximum est in amicitia parem esse inferiori. Saepe enim excellentiae quaedam sunt, qualis erat Scipionis in nostro, ut ita dicam, grege. Numquam se ille Philo, numquam Rupilio, numquam Mummio anteposuit, numquam inferioris ordinis amicis, Q. vero Maximum fratrem, egregium virum omnino, sibi nequaquam parem, quod is anteibat aetate, tamquam superiorem colebat suosque omnes per se posse esse ampliores volebat.
+										Dumque ibi diu moratur commeatus opperiens, quorum translationem ex Aquitania verni imbres solito crebriores prohibebant auctique torrentes, Herculanus advenit protector domesticus, Hermogenis ex magistro equitum filius, apud Constantinopolim, ut supra rettulimus, populari quondam turbela discerpti. quo verissime referente quae Gallus egerat, damnis super praeteritis maerens et futurorum timore suspensus angorem animi quam diu potuit emendabat.
+										</p>
+									</div>
+								 </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+					</div>
+					<!--fin 1ère actualité-->
+					<!--2ème actualité-->
+					<div class="w3-row-padding  w3-padding-16">
+						<div class="w3-col m4" style="padding-top: 20px">
+							<img src="img/projecteur.jpg" alt="projecteur">
+						</div>
+						<div class="w3-col m8">
+							<h3>Le projecteur est prêt!</h3>
+							<p>
+							Saraceni tamen nec amici nobis umquam nec hostes optandi, ultro citroque discursantes quicquid inveniri poterat momento temporis parvi vastabant milvorum rapacium similes, qui si praedam dispexerint celsius, volatu rapiunt celeri, aut nisi impetraverint, non inmorantur.
+							Iamque non umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro iam die, ablatis regiis indumentis Caesarem tunica texit. umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro.
+							</p>
+							<!--Modal-->
+							<div class="w3-left">
+							  <button onclick="document.getElementById('id10').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5" style="margin-top: 8px">Lire la suite</button>
+							  <div id="id10" class="w3-modal">
+								 <div class="w3-modal-content" style="max-width: 500px">
+									  <span onclick="document.getElementById('id10').style.display='none'"
+									  class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+									<div class="w3-container">
+										<img src="img/projecteur.jpg" alt="projecteur">
+										<h3>Le projecteur est prêt!</h3>
+										<p>
+										Saraceni tamen nec amici nobis umquam nec hostes optandi, ultro citroque discursantes quicquid inveniri poterat momento temporis parvi vastabant milvorum rapacium similes, qui si praedam dispexerint celsius, volatu rapiunt celeri, aut nisi impetraverint, non inmorantur.
+										Iamque non umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro iam die, ablatis regiis indumentis Caesarem tunica texit.Sed maximum est in amicitia parem esse inferiori. Saepe enim excellentiae quaedam sunt, qualis erat Scipionis in nostro, ut ita dicam, grege. Numquam se ille Philo, numquam Rupilio, numquam Mummio anteposuit, numquam inferioris ordinis amicis, Q. vero Maximum fratrem, egregium virum omnino, sibi nequaquam parem, quod is anteibat aetate, tamquam superiorem colebat suosque omnes per se posse esse ampliores volebat.
+										Dumque ibi diu moratur commeatus opperiens, quorum translationem ex Aquitania verni imbres solito crebriores prohibebant auctique torrentes, Herculanus advenit protector domesticus, Hermogenis ex magistro equitum filius, apud Constantinopolim, ut supra rettulimus, populari quondam turbela discerpti. quo verissime referente quae Gallus egerat, damnis super praeteritis maerens et futurorum timore suspensus angorem animi quam diu potuit emendabat.
+										</p>
+									</div>
+								 </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+					</div>
+					<!--fin 2ème actualité-->
+					<!--3ème actualité-->
+					<div class="w3-row-padding  w3-padding-16">
+						<div class="w3-col m4" style="padding-top: 20px">
+							<img src="img/transat.jpg" alt="transat">
+						</div>
+						<div class="w3-col m8">
+							<h3>Les transats sont prêts!</h3>
+							<p>
+							Saraceni tamen nec amici nobis umquam nec hostes optandi, ultro citroque discursantes quicquid inveniri poterat momento temporis parvi vastabant milvorum rapacium similes, qui si praedam dispexerint celsius, volatu rapiunt celeri, aut nisi impetraverint, non inmorantur.
+							Iamque non umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro iam die, ablatis regiis indumentis Caesarem tunica texit. umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro. obscuro iam die, ablatis regiis indumentis Caesarem tunica texit. umbratis fallaciis res agebatur.
+							</p>
+							<!--Modal-->
+							<div class="w3-left">
+							  <button onclick="document.getElementById('id11').style.display='block'" class="w3-button w3-theme-l2 w3-hover-theme-d5" style="margin-top: 2px">Lire la suite</button>
+							  <div id="id11" class="w3-modal">
+								 <div class="w3-modal-content" style="max-width: 500px">
+									  <span onclick="document.getElementById('id11').style.display='none'"
+									  class="w3-button w3-display-topright w3-xxlarge">&times;</span>
+									<div class="w3-container">
+										<img src="img/transat.jpg" alt="transat">
+										<h3>Les transats sont prêts!</h3>
+										<p>
+										Saraceni tamen nec amici nobis umquam nec hostes optandi, ultro citroque discursantes quicquid inveniri poterat momento temporis parvi vastabant milvorum rapacium similes, qui si praedam dispexerint celsius, volatu rapiunt celeri, aut nisi impetraverint, non inmorantur.
+										Iamque non umbratis fallaciis res agebatur, sed qua palatium est extra muros, armatis omne circumdedit. ingressusque obscuro iam die, ablatis regiis indumentis Caesarem tunica texit.Sed maximum est in amicitia parem esse inferiori. Saepe enim excellentiae quaedam sunt, qualis erat Scipionis in nostro, ut ita dicam, grege. Numquam se ille Philo, numquam Rupilio, numquam Mummio anteposuit, numquam inferioris ordinis amicis, Q. vero Maximum fratrem, egregium virum omnino, sibi nequaquam parem, quod is anteibat aetate, tamquam superiorem colebat suosque omnes per se posse esse ampliores volebat.
+										Dumque ibi diu moratur commeatus opperiens, quorum translationem ex Aquitania verni imbres solito crebriores prohibebant auctique torrentes, Herculanus advenit protector domesticus, Hermogenis ex magistro equitum filius, apud Constantinopolim, ut supra rettulimus, populari quondam turbela discerpti. quo verissime referente quae Gallus egerat, damnis super praeteritis maerens et futurorum timore suspensus angorem animi quam diu potuit emendabat.
+										</p>
+									</div>
+								 </div>
+							  </div>
+							</div>
+							<!--Fin modal-->
+						</div>
+					</div>
+					<!--fin 3ème actualité-->
+				</div>
+			</section>
+
+			<!-- Section partenaires -->
+			<section id="main-partenaires" class="w3-theme">
+				<div class="content-partenaires w3-container w3-theme-l4 w3-auto">
+					<h2 class="w3-center">Les partenaires du festival</h2>
+					<div class="w3-row w3-center">
+						<h3 class="w3-center w3-padding">Pour se restaurer</h3>
+						<!--Resto 1-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/resto-bar.jpg" alt="resto-bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+						<!--Resto 2-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/resto-bar.jpg" alt="resto-bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+						<!--Resto 3-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/resto-bar.jpg" alt="resto-bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+						<!--Resto 4-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/resto-bar.jpg" alt="resto-bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+					</div>
+					<div class="w3-row w3-center">
+						<h3 class="w3-center w3-padding">Pour aller boire un verre</h3>
+						<!--Bar 1-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/bar.jpg" alt="bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+						<!--Bar 2-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/bar.jpg" alt="bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+						<!--Bar 3-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/bar.jpg" alt="bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+						<!--Bar 4-->
+						<div class="w3-col s6 m3 w3-container">
+							<img src="img/bar.jpg" alt="bar">
+							<div class="w3-center">
+								<a href="#" class="w3-small w3-text-theme w3-hover-theme-d5">Lien vers le site</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Section contact -->
+			<section id="main-contact" class="w3-theme">
+				<div class="main-form w3-theme-l4 w3-auto w3-container">
+					<form class="content-contact" action="index.html" method="post">
+						<h2 class="w3-center">Formulaire de contact</h2>
+						<div class="w3-row">
+							<!--partie gauche-->
+							<div class="w3-col w3-container s12 m6">
+								<div class="w3-container w3-center w3-theme w3-round-large w3-padding w3-margin">
+									<h3>Nous contacter</h3>
+								</div>
+								<div class="w3-padding">
+									<label for="objet">Sujet</label>
+									<input class="w3-input w3-round-large" type="text" name="objet" id="objet" placeholder="Objet de votre message">
+								</div>
+								<div class="w3-padding">
+									<label for="message">Message</label>
+									<textarea id="message" name="message" rows="5" cols="50" placeholder="Votre message ici" class="w3-round-large w3-input"></textarea>
+								</div>
+							</div>
+							<!--partie droite-->
+							<div class="w3-col w3-container s12 m6">
+								<div class="w3-padding">
+									<label for="name2">Nom et prénom</label>
+									<input class="w3-input w3-round-large" type="text" name="name" id="name2" placeholder="Vos nom et prénom" required>
+								</div>
+								<div class="w3-padding">
+									<label for="mail2">Adresse mail</label>
+									<input class="w3-input w3-round-large" type="email" name="mail" id="mail2" placeholder="Votre adresse mail" required>
+								</div>
+								<div class="w3-padding">
+									<label for="telephone2">Numéro de téléphone</label>
+									<input id="telephone2" class="w3-input w3-round-large" type="tel" name="telephone" placeholder="Votre téléphone">
+								</div>
+								<div class="w3-padding">
+									<input class="w3-check" type="checkbox" checked="checked">
+									<label>Inscription à la newsletter</label>
+								</div>
+								<div class="w3-padding">
+									<input class="w3-check" type="checkbox" required>
+									<label>J'ai lu et j'accepte la politique de confidentialité de ce site (<a href="mentions-legales.html">Mentions légales</a>)</label>
+								</div>
+							</div>
+						</div>
+						<div class="w3-center w3-padding-16">
+							<input type="submit" class="w3-button w3-theme-l2 w3-hover-theme-d5 w3-round-large" value="Envoyer" style="min-width: 200px">
+						</div>
+					</form>
+					<div class="content-map w3-auto">
+						<h3 class="w3-center">Plan d'accès au Parc Monceau</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873553136659!2d2.3067663158540586!3d48.879687007160626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2suk!4v1588059317206!5m2!1sfr!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<!-- Footer	-->
+		<footer id="main-footer" class="w3-container w3-theme-dark">
+			<div class="content-footer w3-auto">
+				<div class="socialicons w3-container w3-center">
+					<h4>Nous suivre</h4>
+						<a href="#"><i class="fa fa-facebook-square w3-hover-theme-l4" style="font-size:24px"></i></a>
+						<a href="#"><i class="fa fa-twitter-square w3-hover-theme-l4" style="font-size:24px"></i></a>
+						<a href="#"><i class="fa fa-instagram w3-hover-theme-l4" style="font-size:24px"></i></a>
+				</div>
+				<div class="w3-container w3-center">
+					<p class="w3-small">Copyright 2020 - <a href="mentions-legales.html">Mentions légales</a> - Site réalisé par <a href="http://www.nicolas-coureau.fr/">Nicolas Coureau</a></p>
+					<p class="w3-small w3-hide-small">Projet 3 - Parcours Développeur d'application - Frontend - <a href="https://openclassrooms.com/fr/paths/60-developpeur-dapplication-frontend">OPENCLASSROOMS</a></p>
+				</div>
+			</div>
+		</footer>
+
+</body>
+</html>
